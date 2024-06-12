@@ -29,12 +29,3 @@ switch(userName)
 }    
     
     
-ase "Geometrik":
-    {
-        decimal pi = 3.14m ;
-        int radius = 2 ;
-        decimal yuza = pi * radius*radius ;
-
-        Console.WriteLine("Natija: " + yuza);
-        break;
-    }
