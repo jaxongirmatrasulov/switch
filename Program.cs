@@ -48,8 +48,8 @@
 string userName = Console.ReadLine();
 string messages = userName switch 
 {
-    "elbek" => "siz techer siz.",
-    "jahongir" => "siz student siz",
+    "Elbek" => "You are teacher.",
+    "Jahongir" => "You are student.",
     _ => "default holati"
 };
 Console.WriteLine(messages);
